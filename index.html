@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelloMovies</title>
+    <link rel="stylesheet" href="reset.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+    
+<body>
+
+        <header class="cabecalho"> 
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+
+<!-- Inicio do Cabeçalho  -->
+                <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu-cabeca container__imagem"></span>
+                </label> 
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Filmes</a>
+                    </li>
+
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Séries</a>
+                    </li>
+
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Marvel</a>
+                    </li>
+
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Oscar</a>
+                    </li>
+
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Diversos</a>
+                    </li>
+
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Esporte</a>
+                    </li>
+                </ul>
+                <img src="img/Logo.svg" alt="Logo Principal" class="container__imagem">
+                <h1 class="container__titulo"><b class="container__titulo--negrito">Mello</b>Movies</h1>
+            </div>
+
+            <ul class="opções">
+                <input type="checkbox" id="opções-menu" class="opção__botao">
+                <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label> 
+            
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Filmes</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Séries</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Marvel</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Oscar</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Diversos</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Esporte</a>
+                </li>
+            </ul>
+
+                <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+                <li class="opções__item"><a href="#" class="opções__link">Minha coleção</a></li>
+            </ul>
+
+            <div class="container">
+                <a href="#">
+                    <img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem--favorita">
+                </a>
+                <a href="#" class="container__links">
+                    <img src="img/Compras.svg" alt="Meu carrinho de Compras" class="container__imagem">
+                    <p class="container__texto">Minha Sacola</p>
+                </a>
+                <a href="#" class="container__links">
+                    <img src="img/Usuario.svg" alt="Meu Perfil" class="container__imagem">
+                    <p class="container__texto">Meu Perfil</p>
+                </a>
+             </div>
+        </header>
+<!-- Fim do Cabeçalho  -->
+
+<!-- Inicio do Banner  -->
+        <section class="banner">
+            <h2 class="banner__titulo">Qual opção queres ver hoje?</h2>
+            <p class="banner__texto">Veja uma grande variedade de Filmes e Series para seu entreterimento!</p>
+            <input type="search" class="banner_pesquisa" placeholder="Diga qual nobre...">
+        </section>
+<!-- Fim do Banner  -->
+
+<!-- Inicio do Carrossel  -->
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+            
+            <!-- Slider main container -->
+       <div class="carrossel__container">
+            <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+             <!-- Slides -->
+            <div class="swiper-slide"><img src="img/movies/DW.svg" 
+                alt="Deadpool and Wolverine"></div>
+            <div class="swiper-slide"><img src="img/movies/BB4.svg" 
+                alt="Bad boys 04"></div>
+            <div class="swiper-slide"><img src="img/movies/KFP4.svg" 
+                alt="Kung Fu Panda 04"></div>
+            <div class="swiper-slide"><img src="img/movies/Senna.svg" 
+                alt="Senna"></div>
+            <div class="swiper-slide"><img src="img/movies/GFL.svg" 
+                alt="Garfield"></div>
+            <div class="swiper-slide"><img src="img/movies/SPFC.svg" 
+                alt="Não Falta mais!"></div>
+            <div class="swiper-slide"><img src="img/movies/TC.svg" 
+                alt="The chosen Quarta temporada"></div>
+            <div class="swiper-slide"><img src="img/movies/TB.svg" 
+                alt="The boys Quarta temporada"></div>
+
+               </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+                </div>
+<!-- Fim do Carrossel  -->                
+
+<!-- Inicio do Card-->  
+                <div class="card">
+<!-- Primeira Linha  -->
+                    <div class="card__descricao">
+<!-- Primeira Coluna  -->
+                        <div class="descricao">
+                            <h3 class="descricao__titulo">Recomendação da Semana: </h3>
+                            <h2 class="descricao__Recomendacao">Maratona do UCM</h2>
+                            <p class="descricao__texto">Todos os filmes em ordem cronológica</p>
+                        </div>
+<!-- Segunda coluna  -->
+                        <img src="img/Marvel-Studios.svg" alt="Recomendação da Semana" class="descricao__imagem">
+                    </div>
+
+<!--  Segunda Linha -->
+                    <div class="card__botoes">
+<!--  Primeira Coluna  -->
+                        <ul class="botoes">
+                            <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar">
+                                </li>
+                        </ul>
+<!-- Segunda coluna  -->   
+                        <a href="#" class="botoes__ancora">
+                            Saiba mais</a>
+                    </div>
+                </div>
+            </div>   
+<!-- Fim do Card  -->    
+
+        </section> 
+
+<!-- Inicio do Carrossel Secundario  -->
+<section class="carrossel">
+    <h2 class="carrossel__titulo">TOPS DA SEMANA</h2>
+    <div class="carrossel__container">
+    <!-- Slider main container -->
+    <div class="swiper">
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+     <!-- Slides -->
+     <div class="swiper-slide"><img src="img/movies/TC.svg" 
+        alt="The chosen Quarta temporada"></div>
+     <div class="swiper-slide"><img src="img/movies/SPFC.svg" 
+        alt="Não Falta mais!"></div>
+    <div class="swiper-slide"><img src="img/movies/DW.svg" 
+        alt="Deadpool and Wolverine"></div>
+    <div class="swiper-slide"><img src="img/movies/BB4.svg" 
+        alt="Bad boys 04"></div>
+
+    <div class="swiper-slide"><img src="img/movies/TB.svg" 
+        alt="The boys Quarta temporada"></div>
+
+       </div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+        </div>
+<!-- Fim do Carrossel  -->                
+
+<!-- Inicio do Card-->  
+        <div class="card">
+<!-- Primeira Linha  -->
+            <div class="card__descricao">
+<!-- Primeira Coluna  -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">NOVA SÉRIE </h3>
+                    <h2 class="descricao__Recomendacao">A INÉDITA CONQUISTA DA COPA DO BRASIL!</h2>
+                    <p class="descricao__texto">Análise da nova série do Tricolor</p>
+                </div>
+<!-- Segunda coluna  -->
+                <img src="img/movies/COPA DO BRASIL.svg" alt="Recomendação da Semana" class="descricao__imagem__dois">
+            </div>
+
+<!--  Segunda Linha -->
+            <div class="card__botoes">
+<!--  Primeira Coluna  -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar">
+                        </li>
+                </ul>
+<!-- Segunda coluna  -->   
+                <a href="#" class="botoes__ancora">
+                    Saiba mais</a>
+            </div>
+        </div>
+    </div>
+<!-- Fim do Card  -->   
+ 
+<section class="topicos">
+    <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+
+    <ul class="topicos__lista">
+        <li class="topicos__item">
+            <a href="#" class="tópicos__link">The Chosen</a>
+        </li>
+
+        <li class="topicos__item">
+            <a href="#" class="tópicos__link">The Flash</a>
+        </li>
+
+        <li class="topicos__item">
+            <a href="#" class="tópicos__link">Maratona 1001</a>
+        </li>
+
+        <li class="topicos__item">
+            <a href="#" class="tópicos__link">Marvel cronológica</a>
+        </li>
+
+        <li class="topicos__item">
+            <a href="#" class="tópicos__link">Filmes Antigos</a>
+        </li>
+
+        <li class="topicos__item">
+            <a href="#" class="tópicos__link">Amazon Séries</a>
+        </li>
+
+        <li class="topicos__item">
+            <a href="#" class="tópicos__link">Oscar 2023</a>
+        </li>
+
+        <li class="topicos__item">
+            <a href="#" class="tópicos__link">Disney Filmes</a>
+        </li>
+
+
+    </ul>
+</section>
+
+<section class="contato">
+
+    <div class="contato__descricao">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de Filmes, Series e muito mais!</p>
+    </div>
+    <input type="email" placeholder="Cadastre seu email " class="contato__email">
+
+</section>
+
+<hr/>
+
+<footer class="rodape">
+    <h2 class="rodápe__titulo">Mello Company ©</h2>
+</footer>
+
+</section> 
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                            },
+                        });
+        </script>
+
+
+</body>
+
+</html>
